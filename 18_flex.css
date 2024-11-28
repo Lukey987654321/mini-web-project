@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 15px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px gray;
+}
+.flex-container img{
+    width: 440px; height: 400px;
+}
+.flex-container div{
+    flex-basis: 40%;
+    text-align: center;
+}
